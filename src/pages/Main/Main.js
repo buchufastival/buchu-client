@@ -4,7 +4,9 @@ export default function Main() {
   return (
     <>
       <section className="main">
-        <Banner />
+        <div className="main-banner">
+          <Banner />
+        </div>
       </section>
     </>
   );
