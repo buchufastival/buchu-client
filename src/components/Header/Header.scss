@@ -1,0 +1,75 @@
+@import "../../styles/common.scss";
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+  z-index: 100;
+  box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25);
+  .header {
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .search-area {
+      position: relative;
+      display: inline-block;
+      padding-left: 6px;
+
+      input[type="text"] {
+        width: 50vw;
+        height: 34px;
+        padding: 0 60px 0 14px;
+        border: 1px solid $light-grey;
+        border-radius: 30px;
+        background-color: $light-grey;
+        font-weight: 400;
+        font-size: 12px;
+        color: #666;
+        line-height: 16px;
+        outline: none;
+
+        &::placeholder {
+          color: $medium-grey;
+          ::before {
+          }
+        }
+
+        &:focus {
+          background-color: white;
+          color: #333;
+        }
+      }
+
+      .search-delete {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        width: 36px;
+        height: 36px;
+        border: 0;
+        background: url(https://res.kurly.com/pc/ico/2010/ico_search_del.svg)
+          no-repeat 50% 50%;
+        background-size: 12px 12px;
+      }
+
+      .search-delete-show {
+        opacity: 1;
+      }
+
+      .search-delete-no {
+        opacity: 0;
+      }
+
+      
+    }
+    .header-right {
+      p {
+        color: $main-green;
+      }
+    }
+  }
+}

@@ -1,4 +1,11 @@
-import "Main.scss";
+import Banner from "../../components/Banner/Banner";
+import "./Main.scss";
 export default function Main() {
-  return <></>;
+  return (
+    <>
+      <section className="main">
+        <Banner />
+      </section>
+    </>
+  );
 }
