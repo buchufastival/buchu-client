@@ -1,0 +1,12 @@
+{
+  "banners": [
+    {
+      "img": "/images/banner-1.svg",
+      "linkTo": ""
+    },{
+        "img": "/images/banner-2.svg",
+        "linkTo": ""
+      }
+
+  ]
+}
