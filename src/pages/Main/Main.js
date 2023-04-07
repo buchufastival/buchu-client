@@ -8,6 +8,7 @@ export default function Main() {
         <div className="main-banner">
           <Banner />
         </div>
+        
       </section>
     </>
   );
