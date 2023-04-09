@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner/Banner";
+import Month from "../../components/Button/Month/Month";
 import "./Main.scss";
 
 export default function Main() {
@@ -8,7 +9,9 @@ export default function Main() {
         <div className="main-banner">
           <Banner />
         </div>
-        
+        <div>
+          <Month/>
+        </div>
       </section>
     </>
   );
