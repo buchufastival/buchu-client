@@ -1,3 +1,4 @@
+import './Month.scss';
 export default function Month() {
   return (
     <>
