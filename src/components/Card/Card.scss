@@ -1,8 +1,8 @@
-@import '../../styles/common.scss';
+@import "../../styles/common.scss";
 .card {
   .card-card {
     width: 22vw;
-
+    height: auto;
     background-color: yellow;
     border-radius: 20px;
     position: relative;
@@ -13,22 +13,31 @@
         width: 100%;
       }
     }
-    .card-bottom{
-        text-align: left;
-        background-color: red;
-        padding: 30px 20px;
-        .card-title{
-            font-weight: 500;
-            font-size: 20px;
-            padding-bottom: 5px;
-        }
-        .card-subtitle{
-            padding-bottom: 15px;
-        }
-        .card-date{
-            font-size: 15px;
-            color: $main-green;
-        }
+    .card-bottom {
+      text-align: left;
+      background-color: red;
+      padding: 25px 20px;
+      .card-title {
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .card-subtitle {
+        height: 30px;
+        font-size: 14px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .card-date {
+        font-size: 14px;
+        color: $main-green;
+      }
     }
   }
 }
