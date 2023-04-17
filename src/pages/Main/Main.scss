@@ -1,13 +1,17 @@
 .main {
+  padding-bottom:  150px;
   .main-banner {
     padding-top: 30px;
   }
   .main-bottom {
+    padding: 30px 0px 0px 0px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 1vw 2.8%;
+    gap: 2vw 2.8%;
     width: 77vw;
     margin: 0 auto;
+
   }
+
 }

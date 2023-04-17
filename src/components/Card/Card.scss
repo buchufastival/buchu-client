@@ -3,7 +3,6 @@
   .card-card {
     width: 22vw;
     height: auto;
-    background-color: yellow;
     border-radius: 20px;
     position: relative;
     overflow: hidden;
@@ -15,8 +14,7 @@
     }
     .card-bottom {
       text-align: left;
-      background-color: red;
-      padding: 25px 20px;
+      padding: 30px 20px;
       .card-title {
         font-weight: 500;
         font-size: 15px;
