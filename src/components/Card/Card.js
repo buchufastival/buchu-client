@@ -1,7 +1,11 @@
 import "./Card.scss";
+import { RxBookmarkFilled } from "react-icons/rx";
 export default function Card(props) {
   return (
     <div className="card">
+      <div className="card-bookmark">
+        <RxBookmarkFilled />
+      </div>
       <div className="card-card">
         <div className="card-top">
           <img src={props.post} />
