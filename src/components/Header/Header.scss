@@ -1,5 +1,6 @@
 @import "../../styles/common.scss";
 header {
+  background-color: white;
   position: fixed;
   display: flex;
   align-items: center;
@@ -63,8 +64,6 @@ header {
       .search-delete-no {
         opacity: 0;
       }
-
-      
     }
     .header-right {
       p {
