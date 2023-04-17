@@ -1,5 +1,6 @@
 import "./Header.scss";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 function Header() {
   const [searchText, setSearchText] = useState("");
   const [searchTextOnFocus, setSearchTextOnFocus] = useState(false);
@@ -19,9 +20,11 @@ function Header() {
     <>
       <header>
         <div className="header">
-          <div>
-            <img src="/images/logo.svg" />
-          </div>
+          <Link to="/">
+            <div>
+              <img src="/images/logo.svg" />
+            </div>
+          </Link>
           <div className="search-area">
             <input
               type="text"
