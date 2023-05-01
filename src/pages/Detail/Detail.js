@@ -52,19 +52,21 @@ export default function Detail() {
             </div>
           </div>
 
-          <div className="detail-more-info">
+          <div className="detail-more-info tw">
             <div className="detail-more-info-tit">
               <div className="detail-more-info-title">
                 <p className="detail-more-info-bar"></p>
                 <p className="detail-more-info-spot">교통정보</p>
               </div>
               <div className="detail-more-info-data">
-                <p className="detail-more-info-bold">{data.TRFC_INFO}</p>
+                <p className="detail-more-info-bold">
+                  {data.TRFC_INFO ? data.TRFC_INFO : "정보없음"}
+                </p>
               </div>
             </div>
           </div>
 
-          <div className="detail-more-info">
+          <div className="detail-more-info tw">
             <div className="detail-more-info-tit">
               <div className="detail-more-info-title">
                 <p className="detail-more-info-bar"></p>
