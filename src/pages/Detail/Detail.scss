@@ -1,0 +1,103 @@
+@import "../../styles/common.scss";
+
+.detail {
+  padding-top: 20px;
+
+  .detail-tit {
+    .detail-img {
+      background-color: red;
+      height: 60vh;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      img {
+        width: 100%;
+      }
+    }
+    .detail-info {
+      padding-top: 35px;
+      .detail-top {
+        .detail-main-title {
+          padding-top: 5px;
+          font-size: 28px;
+          font-weight: 500;
+        }
+        .detail-sub-title {
+          font-size: 21px;
+        }
+        .detail-week-time {
+          padding-top: 5px;
+          color: $main-green;
+          font-weight: 500;
+          font-size: 15px;
+        }
+        .detail-top-num {
+          padding: 3px 0px 10px 0px;
+          font-size: 13px;
+          color: $main-green;
+          .detail-cntct-tel {
+            float: left;
+          }
+          .detail-home-url {
+            padding-left: 25px;
+            color: $main-green;
+          }
+        }
+        .detail-rm-1 {
+          color: #666666;
+          font-size: 12px;
+        }
+      }
+    }
+    .detail-bottom {
+      .detail-item-cntnts {
+        color: #666666;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        padding-bottom: 20px;
+      }
+      .detail-more-info-tit {
+        .detail-more-info-title {
+          position: relative;
+          .detail-more-info-bar {
+            position: relative;
+            top: 15px;
+            height: 3px;
+            border-radius: 10px;
+            background-color: $main-green;
+            width: 1vw;
+            float: left;
+          }
+          .detail-more-info-spot {
+            font-size: 23px;
+            padding-left: 22px;
+            font-weight: 500;
+          }
+        }
+        .detail-more-info-data {
+            
+          padding-top: 3px;
+          font-size: 15px;
+          .detail-more-info-location{
+            font-weight: 500;
+            white-space: pre;
+          }
+          .detail-more-info-detail-location{
+            font-size: 10px;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.detail-hr {
+  padding: 10px 0px;
+  hr {
+    background-color: #d9d9d9;
+    height: 1px;
+    border: 0;
+  }
+}

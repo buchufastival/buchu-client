@@ -1,7 +1,4 @@
 .main {
-  padding-bottom: 150px;
-  width: 77vw;
-  margin: 0 auto;
   position: relative;
   .main-banner {
     padding-top: 30px;
@@ -11,7 +8,7 @@
     left: 0px;
   }
   .main-bottom {
-    padding: 50px 0px 0px 0px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
