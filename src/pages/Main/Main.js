@@ -11,7 +11,7 @@ export default function Main() {
         <div className="main-banner">
           <Banner />
         </div>
-        <div>
+        <div className="main-month">
           <Month />
         </div>
         <div className="main-bottom">
