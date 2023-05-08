@@ -1,9 +1,14 @@
 import "./Header.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Main from "../../pages/Main/Main";
 function Header() {
+
   const [searchText, setSearchText] = useState("");
   const [searchTextOnFocus, setSearchTextOnFocus] = useState(false);
+
+  console.log(searchText)
+  
 
   const writeSearchText = (e) => {
     setSearchText(e.target.value);
@@ -12,6 +17,7 @@ function Header() {
   const resetSearchText = (e) => {
     setSearchText("");
   };
+
   const toggleSearchTextOnFocus = (e) => {
     setSearchTextOnFocus(!searchTextOnFocus);
   };
